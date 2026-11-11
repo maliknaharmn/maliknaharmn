@@ -11,7 +11,7 @@
 ### About Me
 
 - 🎓 Final-year Law student diving into software development and data science
-- 📚 Freshman majoring in **Data Science**—building strong foundations from the ground up.
+- 📚 Freshman majoring in Data Science—building strong foundations from the ground up.
 - 📝 Love doing research, writing articles, and documenting things I learn along the way
 - 📫 Reach me at: [maliknahar.mn@gmail.com](mailto:maliknahar.mn@gmail.com)
 
@@ -27,7 +27,7 @@
 
 ### Highlight
 
-- 🎯 **Core Focus:** `Systems Analysis & Design` | `Data Engineering` | `DevOps`
+- 🎯 **Core Focus:** Systems Analysis & Design | Data Engineering | DevOps
 - 🚀 **Mission:** Architecting scalable data pipelines and reliable systems to bridge Law, Social Sciences, and Technology
 - 💡 **Interests:** Clean architecture, automated pipelines, open data, and LegalTech solutions
 
