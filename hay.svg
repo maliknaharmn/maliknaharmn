@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="48" viewBox="0 0 854 48"
+     role="img" aria-labelledby="title description">
+  <title id="title">Profile introduction</title>
+  <desc id="description">Hi, I&#x27;m Muhammad Malik Nahar 👋 I&#x27;m a Lifelong Learner 🚀 Let&#x27;s connect, collaborate and build together!⚡</desc>
+  <style>
+    .copy { fill: #8e5c00; }
+    .still { display: none; }
+    @media (prefers-color-scheme: dark) { .copy { fill: #f3c863; } }
+    @media (prefers-reduced-motion: reduce) {
+      .animated { display: none; }
+      .still { display: inline; }
+    }
+  </style>
+  <defs>
+    <path id="line-1" d="M242 32h370">
+      <animate attributeName="d" dur="15s" repeatCount="indefinite"
+               keyTimes="0;0.17;0.22;0.888667;1" values="M242 32h370;M242 32h370;M242 32h0;M242 32h0;M242 32h370"/>
+    </path>
+    <path id="line-2" d="M295 32h0">
+      <animate attributeName="d" dur="15s" repeatCount="indefinite"
+               keyTimes="0;0.232;0.31;0.456667;0.496667;1" values="M295 32h0;M295 32h0;M295 32h264;M295 32h264;M295 32h0;M295 32h0"/>
+    </path>
+    <path id="line-3" d="M161 32h0">
+      <animate attributeName="d" dur="15s" repeatCount="indefinite"
+               keyTimes="0;0.508667;0.644667;0.816667;0.876667;1" values="M161 32h0;M161 32h0;M161 32h532;M161 32h532;M161 32h0;M161 32h0"/>
+    </path>
+  </defs>
+  <g class="copy" fill="#8e5c00" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif" font-size="24" font-weight="600">
+    <g class="animated">
+    <text textLength="370" lengthAdjust="spacing"><textPath href="#line-1">Hi, I&#x27;m Muhammad Malik Nahar 👋</textPath></text>
+    <text textLength="264" lengthAdjust="spacing"><textPath href="#line-2">I&#x27;m a Lifelong Learner 🚀</textPath></text>
+    <text textLength="532" lengthAdjust="spacing"><textPath href="#line-3">Let&#x27;s connect, collaborate and build together!⚡</textPath></text>
+    </g>
+    <text class="still" x="427" y="32" text-anchor="middle">Hi, I&#x27;m Muhammad Malik Nahar 👋</text>
+  </g>
+</svg>

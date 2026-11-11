@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="253" viewBox="0 0 854 253"
+     role="img" aria-labelledby="title description" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', sans-serif">
+  <title id="title">Muhammad Malik Nahar</title>
+  <desc id="description">Law Researcher | Data Science | Web Development. github.com/maliknaharmn</desc>
+  <!-- Water-fill text effect based on the attached Water Wave Animation.
+The MIT License (MIT)
+
+Copyright (c) 2026 Oluwakemi (https://codepen.io/techgirldiaries/pen/LYWPJPN)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+  GitHub mark from https://github.com/primer/octicons
+MIT License
+
+Copyright (c) 2026 GitHub Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+  -->
+  <style>
+    .still { display: none; }
+    @media (prefers-color-scheme: dark) {
+      .tagline { fill: #d5e3f6; }
+      .bottom-shadow { stroke: #637d9d; opacity: .43; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .animated { display: none; }
+      .still { display: inline; }
+    }
+  </style>
+  <defs>
+    <clipPath id="window">
+      <path d="M0 0H854V226a16 16 0 0 1-16 16H16a16 16 0 0 1-16-16Z"/>
+    </clipPath>
+    <filter id="bottom-shadow" filterUnits="userSpaceOnUse" x="-10" y="208" width="874" height="48">
+      <feGaussianBlur stdDeviation="2.7"/>
+      <feOffset dy="2.5"/>
+    </filter>
+    <filter id="name-outline" x="-5%" y="-20%" width="110%" height="140%"
+            color-interpolation-filters="sRGB">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.25" result="expanded"/>
+      <feComposite in="expanded" in2="SourceAlpha" operator="out" result="edge"/>
+      <feFlood flood-color="#175FCA" result="blue"/>
+      <feComposite in="blue" in2="edge" operator="in"/>
+    </filter>
+    <clipPath id="water-line">
+      <path d="M67 154.40 C87 158.59 107 162.40 127 162.40 C147 162.40 167 158.59 187 154.40 C207 150.21 227 146.40 247 146.40 C267 146.40 287 150.21 307 154.40 C327 158.59 347 162.40 367 162.40 C387 162.40 407 158.59 427 154.40 C447 150.21 467 146.40 487 146.40 C507 146.40 527 150.21 547 154.40 C567 158.59 587 162.40 607 162.40 C627 162.40 647 158.59 667 154.40 C687 150.21 707 146.40 727 146.40 C747 146.40 767 150.21 787 154.40V240H67Z">
+        <animate attributeName="d" dur="3.2s" repeatCount="indefinite"
+                 values="M67 154.40 C87 158.59 107 162.40 127 162.40 C147 162.40 167 158.59 187 154.40 C207 150.21 227 146.40 247 146.40 C267 146.40 287 150.21 307 154.40 C327 158.59 347 162.40 367 162.40 C387 162.40 407 158.59 427 154.40 C447 150.21 467 146.40 487 146.40 C507 146.40 527 150.21 547 154.40 C567 158.59 587 162.40 607 162.40 C627 162.40 647 158.59 667 154.40 C687 150.21 707 146.40 727 146.40 C747 146.40 767 150.21 787 154.40V240H67Z;
+                   M67 148.74 C87 151.71 107 157.09 127 160.06 C147 163.02 167 163.02 187 160.06 C207 157.09 227 151.71 247 148.74 C267 145.78 287 145.78 307 148.74 C327 151.71 347 157.09 367 160.06 C387 163.02 407 163.02 427 160.06 C447 157.09 467 151.71 487 148.74 C507 145.78 527 145.78 547 148.74 C567 151.71 587 157.09 607 160.06 C627 163.02 647 163.02 667 160.06 C687 157.09 707 151.71 727 148.74 C747 145.78 767 145.78 787 148.74V240H67Z;
+                   M67 146.40 C87 146.40 107 150.21 127 154.40 C147 158.59 167 162.40 187 162.40 C207 162.40 227 158.59 247 154.40 C267 150.21 287 146.40 307 146.40 C327 146.40 347 150.21 367 154.40 C387 158.59 407 162.40 427 162.40 C447 162.40 467 158.59 487 154.40 C507 150.21 527 146.40 547 146.40 C567 146.40 587 150.21 607 154.40 C627 158.59 647 162.40 667 162.40 C687 162.40 707 158.59 727 154.40 C747 150.21 767 146.40 787 146.40V240H67Z;
+                   M67 148.74 C87 145.78 107 145.78 127 148.74 C147 151.71 167 157.09 187 160.06 C207 163.02 227 163.02 247 160.06 C267 157.09 287 151.71 307 148.74 C327 145.78 347 145.78 367 148.74 C387 151.71 407 157.09 427 160.06 C447 163.02 467 163.02 487 160.06 C507 157.09 527 151.71 547 148.74 C567 145.78 587 145.78 607 148.74 C627 151.71 647 157.09 667 160.06 C687 163.02 707 163.02 727 160.06 C747 157.09 767 151.71 787 148.74V240H67Z;
+                   M67 154.40 C87 150.21 107 146.40 127 146.40 C147 146.40 167 150.21 187 154.40 C207 158.59 227 162.40 247 162.40 C267 162.40 287 158.59 307 154.40 C327 150.21 347 146.40 367 146.40 C387 146.40 407 150.21 427 154.40 C447 158.59 467 162.40 487 162.40 C507 162.40 527 158.59 547 154.40 C567 150.21 587 146.40 607 146.40 C627 146.40 647 150.21 667 154.40 C687 158.59 707 162.40 727 162.40 C747 162.40 767 158.59 787 154.40V240H67Z;
+                   M67 160.06 C87 157.09 107 151.71 127 148.74 C147 145.78 167 145.78 187 148.74 C207 151.71 227 157.09 247 160.06 C267 163.02 287 163.02 307 160.06 C327 157.09 347 151.71 367 148.74 C387 145.78 407 145.78 427 148.74 C447 151.71 467 157.09 487 160.06 C507 163.02 527 163.02 547 160.06 C567 157.09 587 151.71 607 148.74 C627 145.78 647 145.78 667 148.74 C687 151.71 707 157.09 727 160.06 C747 163.02 767 163.02 787 160.06V240H67Z;
+                   M67 162.40 C87 162.40 107 158.59 127 154.40 C147 150.21 167 146.40 187 146.40 C207 146.40 227 150.21 247 154.40 C267 158.59 287 162.40 307 162.40 C327 162.40 347 158.59 367 154.40 C387 150.21 407 146.40 427 146.40 C447 146.40 467 150.21 487 154.40 C507 158.59 527 162.40 547 162.40 C567 162.40 587 158.59 607 154.40 C627 150.21 647 146.40 667 146.40 C687 146.40 707 150.21 727 154.40 C747 158.59 767 162.40 787 162.40V240H67Z;
+                   M67 160.06 C87 163.02 107 163.02 127 160.06 C147 157.09 167 151.71 187 148.74 C207 145.78 227 145.78 247 148.74 C267 151.71 287 157.09 307 160.06 C327 163.02 347 163.02 367 160.06 C387 157.09 407 151.71 427 148.74 C447 145.78 467 145.78 487 148.74 C507 151.71 527 157.09 547 160.06 C567 163.02 587 163.02 607 160.06 C627 157.09 647 151.71 667 148.74 C687 145.78 707 145.78 727 148.74 C747 151.71 767 157.09 787 160.06V240H67Z;
+                   M67 154.40 C87 158.59 107 162.40 127 162.40 C147 162.40 167 158.59 187 154.40 C207 150.21 227 146.40 247 146.40 C267 146.40 287 150.21 307 154.40 C327 158.59 347 162.40 367 162.40 C387 162.40 407 158.59 427 154.40 C447 150.21 467 146.40 487 146.40 C507 146.40 527 150.21 547 154.40 C567 158.59 587 162.40 607 162.40 C627 162.40 647 158.59 667 154.40 C687 150.21 707 146.40 727 146.40 C747 146.40 767 150.21 787 154.40V240H67Z"/>
+        <animateTransform attributeName="transform" type="translate" dur="7s" repeatCount="indefinite"
+                          values="0 0;0 -48;0 -48;0 0;0 0" keyTimes="0;0.52;0.65;0.95;1"
+                          calcMode="spline" keySplines=".37 0 .63 1;0 0 1 1;.37 0 .63 1;0 0 1 1"/>
+      </path>
+    </clipPath>
+    <path id="github-mark" d="M6.766 11.328c-2.063-.25-3.516-1.734-3.516-3.656 0-.781.281-1.625.75-2.188-.203-.515-.172-1.609.063-2.062.625-.078 1.468.25 1.968.703.594-.187 1.219-.281 1.985-.281.765 0 1.39.094 1.953.265.484-.437 1.344-.765 1.969-.687.218.422.25 1.515.046 2.047.5.593.766 1.39.766 2.203 0 1.922-1.453 3.375-3.547 3.64.531.344.89 1.094.89 1.954v1.625c0 .468.391.734.86.547C13.781 14.359 16 11.53 16 8.03 16 3.61 12.406 0 7.984 0 3.563 0 0 3.61 0 8.031a7.88 7.88 0 0 0 5.172 7.422c.422.156.828-.125.828-.547v-1.25c-.219.094-.5.156-.75.156-1.031 0-1.64-.562-2.078-1.609-.172-.422-.36-.672-.719-.719-.187-.015-.25-.093-.25-.187 0-.188.313-.328.625-.328.453 0 .844.281 1.25.86.313.452.64.655 1.031.655s.641-.14 1-.5c.266-.265.47-.5.657-.656"/>
+  </defs>
+
+  <path class="bottom-shadow" aria-hidden="true" d="M.5 219v7a15.5 15.5 0 0 0 15.5 15.5h822a15.5 15.5 0 0 0 15.5-15.5v-7"
+        fill="none" stroke="#182942" stroke-width="4.5" stroke-linecap="round"
+        opacity=".3" filter="url(#bottom-shadow)"/>
+  <g clip-path="url(#window)">
+    <rect width="854" height="44" fill="#202124"/>
+    <rect y="40" width="854" height="46" fill="#36373a"/>
+
+    <g stroke="#ffffff" stroke-opacity=".24" stroke-width=".8">
+      <circle cx="20" cy="20" r="6.6" fill="#ff5f57"/>
+      <circle cx="42" cy="20" r="6.6" fill="#febc2e"/>
+      <circle cx="64" cy="20" r="6.6" fill="#28c840"/>
+    </g>
+    <rect x="86" y="7" width="27" height="26" rx="8" fill="#37383b"/>
+    <path d="m96 18 3.5 3.5 3.5-3.5" fill="none" stroke="#d5d9df" stroke-width="1.6"
+          stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="125" y="10" width="75" height="20" rx="6" fill="#dadddf"/>
+    <text x="162.5" y="24" text-anchor="middle" font-size="11.5" font-weight="650" fill="#202124">ABOUT ME</text>
+
+    <path d="M204 40 Q215 40 215 29V19 Q215 7 227 7H413 Q425 7 425 19V29Q425 40 436 40Z"
+          fill="#36373a"/>
+    <path d="M125 39.5H204 Q215 39.5 215 29V19 Q215 7 227 7H413 Q425 7 425 19V29Q425 39.5 436 39.5"
+          fill="none" stroke="#ced0d4" stroke-width="1.6" stroke-linecap="round"/>
+    <use href="#github-mark" x="226" y="12" fill="#ffffff"/>
+    <text x="250" y="25" font-size="13.5" font-weight="550" fill="#f1f2f4">maliknaharmn</text>
+    <g fill="none" stroke="#bfc3c9" stroke-width="1.55" stroke-linecap="round">
+      <path d="m407 16 6 6m0-6-6 6"/>
+      <path d="M445 19h9m-4.5-4.5v9"/>
+    </g>
+
+    <g fill="none" stroke="#c4c7cc" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m22 57-5 5 5 5m-5-5h10"/>
+      <path d="m54 57 5 5-5 5m5-5H49" opacity=".46"/>
+      <path d="M92 59.2a5.2 5.2 0 1 0 .7 4.7m.1-7.5v3.7h-3.7"/>
+      <path d="m112 61.3 5.5-4.7 5.5 4.7m-9.2-1v6.8h2.7v-3.5h2v3.5h2.7v-6.8"/>
+    </g>
+
+    <rect x="138" y="47" width="699" height="29" rx="14.5" fill="#27282b"/>
+    <circle cx="153.5" cy="61.5" r="10.5" fill="#3b3d40"/>
+    <g stroke="#d9dade" fill="none" stroke-width="1.15" stroke-linecap="round">
+      <path d="M149 59h3.3m3 0h2.7m-9 5h2.5m3.1 0h3.4"/>
+      <circle cx="153.8" cy="59" r="1.35"/>
+      <circle cx="153.1" cy="64" r="1.35"/>
+    </g>
+    <text x="170" y="66.5" font-size="13.5" font-weight="500" fill="#e7e8ea">github.com/maliknaharmn</text>
+    <path d="M0 85.5H854" stroke="#4c5059"/>
+
+    <g text-anchor="middle" font-size="54" font-weight="750" letter-spacing="-1.4" fill="#175FCA">
+      <g class="animated">
+        <text x="427" y="163" filter="url(#name-outline)">Muhammad Malik Nahar</text>
+        <text x="427" y="163" clip-path="url(#water-line)"
+              stroke="#175FCA" stroke-width="1.5" stroke-linejoin="round">Muhammad Malik Nahar</text>
+      </g>
+      <text class="still" x="427" y="163" stroke="#175FCA" stroke-width="1.5"
+            stroke-linejoin="round">Muhammad Malik Nahar</text>
+    </g>
+    <text class="tagline" x="427" y="195" text-anchor="middle"
+          font-size="17" font-weight="500" fill="#24292f">Law Researcher | Data Science | Web Development</text>
+  </g>
+  <path d="M.5 .5H853.5V226a15.5 15.5 0 0 1-15.5 15.5H16a15.5 15.5 0 0 1-15.5-15.5Z"
+        fill="none" stroke="#67778c" stroke-opacity=".56"/>
+</svg>

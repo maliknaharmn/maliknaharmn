@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="28"
+     viewBox="0 0 150 28" role="img" aria-labelledby="title">
+  <title id="title">Instagram</title>
+  <rect width="95" height="28" fill="#29384d"/>
+  <rect x="95" width="55" height="28" fill="#51448d"/>
+  <g fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11"
+     text-anchor="middle" letter-spacing="1">
+    <text x="47.5" y="18" font-weight="600">INSTAGRAM</text>
+    <text x="122.5" y="18" font-weight="800">VIEW</text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="164" height="28"
+     viewBox="0 0 164 28" role="img" aria-labelledby="title">
+  <title id="title">LinkedIn</title>
+  <rect width="83" height="28" fill="#29384d"/>
+  <rect x="83" width="81" height="28" fill="#1f6095"/>
+  <g fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11"
+     text-anchor="middle" letter-spacing="1">
+    <text x="41.5" y="18" font-weight="600">LINKEDIN</text>
+    <text x="123.5" y="18" font-weight="800">CONNECT</text>
+  </g>
+</svg>
